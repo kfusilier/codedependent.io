@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "Code Dependent",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "A blog covering all things web development and technology",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Chris Bridges <christopher_bridges@icloud.com>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/chrisbridges/codedependent.io/issues"
   },
   "dependencies": {
     "gatsby": "^2.0.76",
@@ -40,15 +40,15 @@
     "eslint-plugin-react": "^7.11.1",
     "prettier": "^1.14.2"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://github.com/chrisbridges/codedependent.io",
   "keywords": [
-    "gatsby"
+    "gatsby", "react", "chris", "bridges", "javascript"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/chrisbridges/codedependent.io"
   },
   "scripts": {
     "dev": "gatsby develop",
