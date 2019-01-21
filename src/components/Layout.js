@@ -3,6 +3,8 @@ import { Link } from 'gatsby'
 
 import { rhythm, scale } from '../utils/typography'
 
+import codeDependentLogo from '../../content/assets/codedependent-icon.svg'
+
 class Layout extends React.Component {
   render() {
     const { location, title, children } = this.props
@@ -26,7 +28,7 @@ class Layout extends React.Component {
             }}
             to={`/`}
           >
-            {title}
+            <img src={codeDependentLogo} alt="Code Dependent Logo" />
           </Link>
         </h1>
       )
