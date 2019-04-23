@@ -31,11 +31,11 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who loves teaching
-              and building useful things.
+              Written by <strong>{author}</strong> who loves teaching and
+              building useful things.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
-                Feel free to follow him on Twitter
+                Feel free to follow me on Twitter
               </a>
             </p>
           </div>
