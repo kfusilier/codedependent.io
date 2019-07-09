@@ -42,7 +42,11 @@
   },
   "homepage": "https://github.com/chrisbridges/codedependent.io",
   "keywords": [
-    "gatsby", "react", "chris", "bridges", "javascript"
+    "gatsby",
+    "react",
+    "chris",
+    "bridges",
+    "javascript"
   ],
   "license": "MIT",
   "main": "n/a",
