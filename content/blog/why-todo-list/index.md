@@ -1,4 +1,8 @@
-# Why is Everyone Telling Me to Build a Todo List App?
+---
+title: Why is Everyone Telling Me to Build a Todo List App?
+date: '2019-07-07'
+---
+
 One of the most common pieces of advice given to new developers is “Build. Build. Build.” Build something. Build anything. You’ll learn far more by building. This is superb advice. Building projects from scratch, rather than following tutorial after tutorial, will lead to a far more thorough understanding of the technologies you’re working with. A natural question then follows, ‘What should I build?’ Many professional developers will instinctively react with, “A Todo List app”. 
 
 It’s understandable why up and coming devs will find this answer less than thrilling. ‘A Todo List? I want to build the next Facebook, Twitter, Netflix, etc. Checklists are boring.’ Like a novice musician who’s told to continuously practice scales, without ever being told why they’re important, this exercise can seem deflating. Let’s shed some light on *why* everyone is telling you to build this project.
@@ -35,7 +39,7 @@ A good Todo List app will cover all of these key concepts and serve as excellent
 	
 ## What does this have to do with me building the next Twitter?
 
-At the end of the day, the Twitters, Amazons, Netflixs of the world, are all giant elaborate todo lists. We *create* data when we add an item to our carts on Amazon. We *update* data when we “like” a Tweet. When we remove something from our Netflix queue, we *delete* that data.
+At the end of the day, the Twitters, Amazons, Netflix's of the world, are all giant elaborate todo lists. We *create* data when we add an item to our carts on Amazon. We *update* data when we “like” a Tweet. When we remove something from our Netflix queue, we *delete* that data.
 
 The way these applications handle and process that data at such scale will obviously be more complex than our first checklist app, but the core concepts remain the same. We must understand first principles before we can add complexity.
 
