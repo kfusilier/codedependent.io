@@ -1,9 +1,9 @@
 ---
-title: 'CSS - Cascading Logic'
+title: 'CSS - Cascading Logic Interview Question'
 date: '2019-06-25'
 ---
 
-Since CSS stands for “Cascading Styling Sheets”, it seems only appropriate that anyone who claims to have an understanding of this language, grasp one of its core constructs. Today, we’ll be covering Cascading and how the placement of styling rules in our files is critical. This is an incredibly quick exercise I present to candidates to test their knowledge of basic CSS rules.
+Since CSS stands for “Cascading Styling Sheets”. It seems only appropriate that anyone who claims to have an understanding of this language, grasp one of its core constructs. Today, we’ll be covering Cascading and how the placement of styling rules in our files is critical. This is an incredibly quick exercise I present to candidates to test their knowledge of basic CSS rules.
 
 I present you with a div. The div has two classes attached to it. These two classes contain clashing styling rules - they’re each trying to write `background-color` for this div. One is purple, the other pink. Why is the div pink instead of purple? What decides that pink should take precedence? Take a look at the code below and see if you can decipher why.
 
