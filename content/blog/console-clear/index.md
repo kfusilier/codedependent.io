@@ -1,5 +1,5 @@
 ---
-title: 'Console Filling Up? Enter console.clear()'
+title: 'Console Filling Up? console.clear() to the rescue'
 date: '2019-07-15'
 ---
 
