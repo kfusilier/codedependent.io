@@ -63,7 +63,7 @@ class Layout extends React.Component {
       >
         {/* {header} */}
         <Link to={'/'}>
-        <Logo />
+          <Logo />
         </Link>
         {children}
         <footer>

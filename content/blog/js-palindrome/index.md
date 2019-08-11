@@ -7,7 +7,7 @@ I’d like to introduce a series I’m starting on interview questions. These wi
 
 My go-to JavaScript question is the Palindrome. This is a relatively basic exercise that tests a number of important JavaScript concepts: value comparison, array & string methods, loops, as well as a candidate’s ability to write code that’s adaptable - should we throw a few wrinkles at you near the end. 
 
-This problem is essentially my “FizzBuzz” (link to FizzBuzz post) for candidates. When web technologies really started taking off back in the day, companies were getting bombarded with unqualified candidates for their engineering openings, so to help funnel out those who weren’t up to snuff, that was a common first question to be asked. Palindrome, for me, serves the same purpose.
+This problem is essentially my “FizzBuzz” for candidates. When web technologies really started taking off back in the day, companies were getting bombarded with unqualified candidates for their engineering openings, so to help funnel out those who weren’t up to snuff, that was a common first question to be asked. Palindrome, for me, serves the same purpose.
 
 This is an excellent interview question because there are a number of ways this could be solved, and the path that a candidate chooses can be illuminating, as well as if they’re aware of varying approaches we can ask about once they’re through.
 
@@ -32,7 +32,7 @@ Next, we need to be aware that a palindrome is a word that is exactly the same w
 
 Let’s now focus on exactly how we can go about reversing the string argument. In JavaScript, there is no way to reverse a string, but with some type coercion, and those data types corresponding methods, it becomes rather simple.
 
-While *strings*do not possess a native reverse method, *arrays*do. We can pass this method on any array, and receive the flipped version we would expect. That’s great, but how do we go about converting our string into an array? Enter String.split().
+While *strings* do not possess a native reverse method, *arrays* do. We can pass this method on any array, and receive the flipped version we would expect. That’s great, but how do we go about converting our string into an array? Enter String.split().
 
 Split allows us to break any string down into an array. We provide an argument to let .split() know where exactly we want our string broken down into array elements. Since we want every character of our argument string to be reversed, we’ll break it down by each individual letter, which we can achieve with String.split(‘’). This will take “cat” and convert it to `[‘c’, ‘a’, ‘t’]`. Note that each of our elements within the array are still strings, just individually now.
 
@@ -44,7 +44,7 @@ You might be inclined to think that if our argument were a palindrome, like “r
 ```
 Not so fast. This is a mistake I’ve seen enough of, so it’s worth mentioning.
 	
-We can not check for array equality the same way we do with data primitives (post on what are data primitives?) in JavaScript. 
+We can not check for array equality the same way we do with data primitives in JavaScript. 
 ```javascript
 “cat” === “cat” => true. 
 
@@ -52,7 +52,6 @@ We can not check for array equality the same way we do with data primitives (pos
 
 [1] === [1] => false. 
 ```
-For an explanation of why, check out this explanation here (provide link to explanation, or write one yourself). 
 
 We’ve reached a crossroads. We can either a) find a way to check that these arrays contain the same values in the exact same order, or b) take we know about comparing primitive data types and convert our arrays into types that allow for such simple equality checking. Let’s go with the simpler solution for now.
 
@@ -100,6 +99,3 @@ While recursion can be cool, I believe it’s best to always err on the side of 
 
 
 There you have it. You’re now ready to crush this interview question. Practice, repetition, and some deep breaths will be your foundation for success. Good luck.
-
-If you’d like additional coding question interview tips, I summarized some of them here. (coding interview tips post)
-
