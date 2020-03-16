@@ -1,6 +1,6 @@
 ---
 title: 'Adaptablity in the Modern Economy'
-date: '2019-07-15'
+date: '2019-09-01'
 ---
 
 This was an off-the-cuff essay I wrote given the below prompt. I’d like to explore this topic further, but I was proud of what I came up with over the course of an hour.
