@@ -3,6 +3,8 @@
   date: '2018-11-22'
 ---
 
+_TL;DR - Quick answer: System Preferences -> Mission Control -> (Uncheck) “Automatically rearrange Spaces based on most recent use"_
+
 Macs are beautiful machines. The attention to detail and ease of use is world-renowned. As a developer, I love that so many minor, and often annoying, details are taken care of for me, so that I can get back to what I most enjoy. 
 
 One of the more beloved features of these machines is the “multiple desktops” or “Spaces”. If you’ve ever seen users swipe left and right between apps using 3 fingers on the trackpad, you’re familiar. If you’re not, swipe up with 3 fingers on the trackpad (or press the F3 key) and then click the “+” sign at the top right of the screen. You’ve now added a new Space. These can be switched quickly between by swiping with 3 fingers in the direction of your new Space. You can also rearrange these in any order you see fit.
@@ -20,6 +22,3 @@ Here’s how to remedy this:
 3) Go to “Mission Control”
 4) Uncheck that dastardly “Automatically rearrange Spaces based on most recent use”
 5) Enjoy Spaces as they were intended
-
-_TL;DR - Quick answer: System Preferences -> Mission Control -> (Uncheck) “Automatically rearrange Spaces based on most recent use"_
-
