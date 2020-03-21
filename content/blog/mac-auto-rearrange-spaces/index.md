@@ -1,6 +1,6 @@
 ---
   title: 'How to Fix Mac OS’ Annoying Auto-Rearranging of Desktops (Spaces)'
-  date: '2019-07-22'
+  date: '2018-11-22'
 ---
 
 Macs are beautiful machines. The attention to detail and ease of use is world-renowned. As a developer, I love that so many minor, and often annoying, details are taken care of for me, so that I can get back to what I most enjoy. 
