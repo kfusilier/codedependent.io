@@ -1,6 +1,8 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import Image from 'gatsby-image'
+import { Link } from 'gatsby'
+
 
 import { rhythm } from '../utils/typography'
 
@@ -38,6 +40,24 @@ function Bio() {
                 Feel free to follow me on Twitter
               </a>
             </p>
+            <a href="https://square.site/book/D50HHB11T6G6W/chris-bridges">
+              <button 
+              style={{
+                backgroundColor: '#03A9DB', 
+                color: 'white', 
+                height: 40,
+                // textTransform: uppercase,
+                // fontFamily: 'Square Market', 'helvetica neue', 'helvetica', 'arial', 'sans-serif', 
+                // letter-spacing: 1px, 
+                // line-height: 38px, 
+                // padding: 0 28, 
+                // border-radius: 3px, 
+                // font-weight: 500, 
+                fontSize: 14, 
+                // cursor: pointer, 
+                display: 'block'
+              }}>Learn with Me</button>
+            </a>
           </div>
         )
       }}
